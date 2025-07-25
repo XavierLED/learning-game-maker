@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"README",
+  "name":"README",
+  "parent":{
+    "name":"learning_game_maker",
+    "path":"learning_game_maker.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
