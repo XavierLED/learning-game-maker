@@ -26,6 +26,7 @@
   "name":"learning_game_maker",
   "resources":[
     {"id":{"name":"README","path":"notes/README/README.yy",},},
+    {"id":{"name":"attack","path":"objects/attack/attack.yy",},},
     {"id":{"name":"enemy1","path":"objects/enemy1/enemy1.yy",},},
     {"id":{"name":"enemy2","path":"objects/enemy2/enemy2.yy",},},
     {"id":{"name":"enemyParent","path":"objects/enemyParent/enemyParent.yy",},},
