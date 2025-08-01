@@ -4,12 +4,19 @@
   "eventList":[],
   "managed":true,
   "name":"enemy2",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemyParent","path":"objects/enemyParent/enemyParent.yy",},"propertyId":{"name":"hp","path":"objects/enemyParent/enemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemyParent","path":"objects/enemyParent/enemyParent.yy",},"propertyId":{"name":"dmg","path":"objects/enemyParent/enemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemyParent","path":"objects/enemyParent/enemyParent.yy",},"propertyId":{"name":"xpValue","path":"objects/enemyParent/enemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+  ],
   "parent":{
     "name":"objects",
     "path":"folders/objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"enemyParent",
+    "path":"objects/enemyParent/enemyParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_enemy2",
+    "path":"sprites/spr_enemy2/spr_enemy2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
